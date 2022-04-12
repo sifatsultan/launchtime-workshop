@@ -7,6 +7,12 @@
 
 /* Add Exercise 2 answer here */
 
+.leaflet-container {
+  height: 100vh;
+}
+
+
+
 /*
   @lesson-02-todo Extra Credit
   We want to our map to be able to take up as much space
@@ -15,3 +21,7 @@
 */
 
 /* Add Extra Credit answer here */
+
+main{
+  padding: 0;
+}

@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <span className="logo">
       <img src={logo} alt="Logo" />
-      LaunchTime
+      LaunchTime - 2
     </span>
   )
 }

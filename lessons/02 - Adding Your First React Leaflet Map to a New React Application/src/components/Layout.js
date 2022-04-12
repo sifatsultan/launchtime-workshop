@@ -13,7 +13,7 @@ const Layout = ({ children, pageName }) => {
   return (
     <>
       <Helmet bodyAttributes={{ class: layoutClass }}>
-        <title>LaunchTime</title>
+        <title>LaunchTime - 2</title>
       </Helmet>
       <div className="wrapper">
         <Header />

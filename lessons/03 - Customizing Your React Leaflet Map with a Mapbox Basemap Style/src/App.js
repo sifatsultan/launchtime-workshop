@@ -5,6 +5,7 @@ import './assets/stylesheets/App.css';
 
 import Layout from './components/Layout';
 
+
 function App() {
   return (
     <Layout>
@@ -17,7 +18,7 @@ function App() {
          * TileLayer to use a Mapbox endpoint and attribution.
          */ }
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url={`https://api.mapbox.com/styles/v1/sifatsultan99/cl1vyc61j000q14ms9yswctyg/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_API_KEY}`}
           attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
         />
       </Map>
